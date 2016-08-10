@@ -1,0 +1,34 @@
+body{
+	height: 100%;
+    background-image: url("http://images4.fanpop.com/image/photos/16500000/Hogwart-s-Battle-the-deathly-hallows-16562188-1920-1200.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img{
+	display: inline;
+	border: 5px solid white;
+	border-radius: 5px;
+	height: 150px;
+	width: 150px;
+	margin: 20px;
+}
+
+img:hover{
+	border: 5px solid green;
+}
+
+#left-side{
+	margin-top: 30px;
+}
+
+#right-side{
+	height: 500px;
+	width: 450px;
+	background-color: black;
+	opacity: 0.9;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
