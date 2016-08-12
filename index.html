@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-uSbimwRPo7PKyTL6azsx1CcBce/X9Qg+wX1MAjNV1gAkSXYveZbZeMMyJghdsSol" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -48,7 +50,17 @@
         </div>
 
         <div id="right-side" class="col-md-6 text-center">
-          <h5><strong>Dueling Hall</strong></h5>
+          <h5 id="duelinghall"><strong>Dueling Hall</strong></h5>
+          <button class="btn btn-default btn-lg normalButton"><span class="glyphicon glyphicon-flash"></span>Attack</button>
+          <div id="duelinghall" class="row">
+            <div id="left-of-game" class="col-md-6 text-center">
+              <h6>Player</h6>
+            </div>
+            <div id="right-of-game" class="col-md-6 text-center">
+              <h6>Opponent</h6>
+            </div>
+            
+          </div>
           
         </div>
 

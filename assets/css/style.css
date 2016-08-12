@@ -20,15 +20,36 @@ img:hover{
 	border: 5px solid green;
 }
 
+.page-header{
+	border-bottom: none;
+}
+
 #left-side{
 	margin-top: 30px;
 }
 
 #right-side{
-	height: 500px;
+	height: 550px;
 	width: 450px;
 	background-color: black;
 	opacity: 0.9;
 	border-radius: 10px;
 	margin-bottom: 50px;
+}
+
+
+#left-of-game{
+	margin-top: 20px;
+	border-right: 2px solid white;
+	border-top: 3px solid white;
+	height: 400px;
+	overflow: auto;
+}
+
+#right-of-game{
+	margin-top: 20px;
+	border-left: 2px solid white;
+	border-top: 3px solid white;
+	height: 400px;
+	overflow: auto;
 }
