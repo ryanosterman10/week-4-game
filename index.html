@@ -7,7 +7,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-uSbimwRPo7PKyTL6azsx1CcBce/X9Qg+wX1MAjNV1gAkSXYveZbZeMMyJghdsSol" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -43,23 +43,22 @@
       <div id="game-area" class="row">
 
         <div id="left-side" class="col-md-6">
-          <img src="http://www.vigilantchristian.org/Harry%20Potter%20wand-saber.JPG">
-          <img src="http://i12.photobucket.com/albums/a224/RedOmen/33177240.png">
-          <img src="https://corthodoxy.files.wordpress.com/2011/07/voldemort-elder-wand.jpg">
-          <img src="http://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2012/01/Untitled-1.jpg">                  
+          <img class="characters" id= "harry" src="http://www.vigilantchristian.org/Harry%20Potter%20wand-saber.JPG">
+          <img class="characters" id="dumbledore" src="http://i12.photobucket.com/albums/a224/RedOmen/33177240.png">
+          <img class="characters" id="voldemort" src="https://corthodoxy.files.wordpress.com/2011/07/voldemort-elder-wand.jpg">
+          <img class="characters" id="snape" src="http://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2012/01/Untitled-1.jpg">
         </div>
 
         <div id="right-side" class="col-md-6 text-center">
           <h5 id="duelinghall"><strong>Dueling Hall</strong></h5>
-          <button class="btn btn-default btn-lg normalButton"><span class="glyphicon glyphicon-flash"></span>Attack</button>
+          <button class="btn btn-default btn-lg normalButton"><span class="glyphicon glyphicon-flash"></span>Attack<span class="glyphicon glyphicon-flash"></span></button>
           <div id="duelinghall" class="row">
-            <div id="left-of-game" class="col-md-6 text-center">
+            <div id="left-of-game" class="col-md-6 text-center player">
               <h6>Player</h6>
             </div>
-            <div id="right-of-game" class="col-md-6 text-center">
+            <div id="right-of-game" class="col-md-6 text-center opponent">
               <h6>Opponent</h6>
-            </div>
-            
+            </div>           
           </div>
           
         </div>
